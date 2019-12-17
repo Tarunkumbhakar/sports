@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cricket</title>
+</head>
+<body>
+	<table border="1" width="40%" cellspacing="0" cellpadding="5" align="center">
+		<th height="30" bgcolor="blue"><h2>Registration</h2></th>
+		<tr>
+			<td align="center" bgcolor="grey">
+				<form>
+    					<label>First name :</label>
+    					<input type="text" name="fname" placeholder="Enter first name" autofocus="autofocus" required><br><br>
+    					<label>Last name :</label>
+    					<input type="text" name="lname" placeholder="Enter last name" required><br><br>
+    					<label>Qualification :</label>
+    						<select required>
+    							<option value="matrix">MAdhyamik</option>
+    							<option value="matrix">HS</option>
+    							<option value="matrix">Graduation</option>
+    							<option value="matrix">Post-Graduation</option>
+    						</select><br><br>
+    					
+
+    						<!--gender-->
+
+    					<label for="gen">Gender:</label>
+    					<label for="male">Male</label>
+    					<input type="radio" name="gender" id="male">
+    					<label for="female">Female<label>
+    					<input type="radio" name="gender" id="female">
+    					<label for="others">others</label>
+    					<input type="radio" name="gender" id="others"><br><br>
+
+    					<!--DOB-->
+    					<label>DOB</label>
+    					<input type="date" name="date" required><br><br>
+
+    					<!--sports-->
+    					<label for="gen">Sports:</label>
+    					<label for="cricket">CRICKET</label>
+    					<input type="radio" name="sports" id="cricket">
+    					<label for="football">FOOTBALL<label>
+    					<input type="radio" name="sports" id="football">
+    					<label for="badminton">sports</label>
+    					<input type="radio" name="sports" id="badminton"><br><br>
+    					<label>Your image</label>
+    					<input type="file" name="file" accept="image/*" required><br><br>
+    					<input type="image" name="image" alt="error" src="image/submit2.png" height="50px" width="200px">
+    				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
